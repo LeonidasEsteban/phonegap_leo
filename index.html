@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="js/phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for PhoneGap to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // PhoneGap is ready
+    //
+    function onDeviceReady() {
+        var db = window.openDatabase("test", "1.0", "Test DB", 1000000);
+    }
+
+    </script>
+  </head>
+  <body>
+    <h1>Example</h1>
+    <p>Open Database</p>
+  </body>
+</html>
