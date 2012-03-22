@@ -1,0 +1,645 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+body {
+  background: #fff url("../images/cinta_1920.jpg") repeat-y;
+  background-size: 100% 100%;
+  box-shadow: 0 0 250px rgba(0,0,0,0.90) inset;
+  position: relative;
+  overflow: hidden;
+}
+footer {
+  background: none;
+  color: #3d4043;
+  padding-top: 0;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #fff;
+}
+footer .derecha {
+  color: #fff;
+  width: 77%;
+}
+footer .derecha a {
+  margin: 0 17%;
+}
+footer .derecha .cvander {
+  margin: 0 0 0 17%;
+}
+footer .esquina-footer {
+  background: url("../images/live/esquina-footer.png");
+  content: "";
+  display: inline-block;
+  margin-left: -5px;
+  height: 60px;
+  width: 36px;
+}
+footer .izquierda {
+  background: #fff;
+  color: #3d4043;
+  width: 18%;
+}
+footer .izquierda span:nth-child(1) {
+  margin-top: 15px;
+}
+footer div {
+  min-height: 60px;
+}
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+header #maestros {
+  margin-left: 40%;
+  padding-top: 1%;
+  width: 7%;
+}
+header #maestros img {
+  width: 100%;
+}
+header #cristalab {
+  margin-left: 70%;
+  padding-top: 1%;
+  width: 7%;
+}
+header #cristalab img {
+  width: 100%;
+}
+header .logo img {
+  width: 18%;
+  display: block;
+}
+header div {
+  background: url("../images/adorno-logo.png") no-repeat 60% top;
+  width: 100%;
+}
+#col1,
+#col2,
+#mail,
+#social {
+  display: inline-block;
+  vertical-align: top;
+}
+#contenido {
+  margin: 0 auto;
+  padding-top: 8%;
+  width: 70%;
+}
+#contenido #col1 {
+  width: 65%;
+}
+#contenido #col1 #contvideo {
+  width: 99%;
+}
+#contenido #col1 #contvideo #video {
+  border: 8px solid rgba(255,255,255,0.30);
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+#contenido #col1 #video	iframe,
+#contenido #col1 #video object,
+#contenido #col1 #video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#contenido #col1 #mail {
+  margin-top: 1%;
+  text-transform: uppercase;
+  width: 40%;
+  position: relative;
+}
+#contenido #col1 #mail input[type=text],
+#contenido #col1 #mail input[type=email] {
+  background: rgba(0,0,0,0.30);
+  border: 1px solid rgba(255,255,255,0.30);
+  color: #fff;
+  display: inline-block;
+  float: right;
+  height: 18px;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  top: 2px;
+  width: 60%;
+}
+#contenido #col1 #mail input[type=submit] {
+  background: #1eadff;
+  border: none;
+  color: #fff;
+  height: 20px;
+  text-align: center;
+  width: 30%;
+  float: right;
+}
+#contenido #col1 #mail .esquina {
+  background: url("../images/live/submit-esquina.png");
+  width: 25px;
+  height: 20px;
+  display: inline-block;
+  float: right;
+}
+#contenido #col1 #mail .txt {
+  background: #fff;
+  color: #535456;
+  display: inline-block;
+  font-size: 11px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 20px;
+  width: 20%;
+}
+#contenido #col1 #mail .tit {
+  display: block;
+  font-family: Bold;
+  font-size: 14px;
+}
+#contenido #col1 #social {
+  margin: 0;
+  margin-top: 2%;
+  position: relative;
+  text-align: center;
+  width: 59%;
+  z-index: 2;
+  overflow: hidden;
+}
+#contenido #col1 #social div {
+  background: rgba(0,0,0,0.30);
+  margin-left: 0;
+  padding: 5px 10px;
+}
+#contenido #col1 #social div:after {
+  display: none;
+}
+#contenido #col1 #social div:nth-child(1) {
+  margin-left: 0;
+}
+#contenido #col1 #social .btn_facebook {
+  padding-bottom: 9px;
+  width: 45px;
+}
+#contenido #col1 #social .btn_googlemas {
+  padding-bottom: 7px;
+  width: 48px;
+}
+#contenido #col1 #social .btn_facebook:after {
+  margin-top: -25px;
+  width: 65px;
+}
+#contenido #col2 {
+  width: 34%;
+}
+#contenido #col2 .chat {
+  background: #3d4043;
+  width: 100%;
+/*min-height 50%
+			max-height 80%*/
+}
+#contenido #col2 .chat .chatbox {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#contenido #col2 .chat .chatbox #chatform {
+  position: relative;
+}
+#contenido #col2 .chat .chatbox #chatform input[type=text] {
+  background: #515458;
+  border: 1px solid rgba(255,255,255,0.30);
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  height: 50px;
+  margin: 0 auto;
+  outline: 0;
+  width: 90%;
+}
+#contenido #col2 .chat .chatbox #chatform .publish {
+  background: #29b1ff;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  margin-top: -15px;
+  padding: 5px 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  min-width: 50px;
+}
+#contenido #col2 .chat .chatbox #chatform .publish #publish,
+#contenido #col2 .chat .chatbox #chatform .publish span {
+  display: inline-block;
+}
+#contenido #col2 .chat #messages {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#contenido #col2 .chat #messages .message {
+  padding: 15px 0;
+  position: relative;
+  width: 100%;
+}
+#contenido #col2 .chat #messages .message p {
+  display: inline;
+  font-family: Arial;
+  font-size: 13px;
+  left: 65px;
+  position: absolute;
+  top: 35px;
+  width: 80%;
+}
+#contenido #col2 .chat #messages .message .avatar {
+  display: inline;
+  margin-left: 10px;
+}
+#contenido #col2 .chat #messages .message .mention {
+  background: #29b1ff;
+}
+#contenido #col2 .chat #messages .message .user {
+  display: inline;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  vertical-align: top;
+}
+#contenido #col2 .chat #messages .message .time {
+  opacity: 0;
+  position: absolute;
+  right: 25px;
+  -webkit-transition: 0.2s;
+  top: 15px;
+}
+#contenido #col2 .chat #messages .message .borrar {
+  background: url("../images/live/borrar.png") no-repeat;
+  height: 14px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  width: 14px;
+}
+#contenido #col2 .chat #messages .message .responder {
+  background: rgba(0,0,0,0.30) url("../images/live/responder.png") no-repeat center;
+  height: 50px;
+  left: 10px;
+  position: absolute;
+  top: 15px;
+  width: 50px;
+}
+#contenido #col2 .chat #messages .message:hover .time {
+  opacity: 1;
+}
+#contenido #col2 .chat #messages .message:hover {
+  background: #2e3032;
+}
+@media screen and (max-width:1024px) and (min-height:768px) {
+  footer .izquierda .text {
+    width: auto;
+  }
+  footer .izquierda span:nth-child(1) {
+    font-size: 14px;
+  }
+  footer a {
+    font-size: 18px;
+  }
+  footer span {
+    font-size: 14px;
+  }
+  header #maestros {
+    width: 10%;
+  }
+  header #cristalab {
+    width: 10%;
+  }
+  #contenido {
+    width: 90%;
+  }
+  #contenido #col1 #mail {
+    margin-top: 10%;
+    text-transform: uppercase;
+    width: 40%;
+    position: relative;
+  }
+  #contenido #col1 #mail input[type=text],
+  #contenido #col1 #mail input[type=email] {
+    height: 28px;
+    width: 60%;
+    float: right;
+  }
+  #contenido #col1 #mail input[type=submit] {
+    height: 32px;
+    width: 30%;
+  }
+  #contenido #col1 #mail .esquina {
+    width: 25px;
+    height: 32px;
+  }
+  #contenido #col1 #mail .txt {
+    height: 30px;
+    width: 20%;
+  }
+  #contenido #col1 #social {
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width:1100px) {
+  footer .izquierda .text {
+    width: auto;
+  }
+  footer .izquierda span:nth-child(1) {
+    font-size: 14px;
+  }
+  footer a {
+    font-size: 18px;
+  }
+  footer span {
+    font-size: 14px;
+  }
+  header #maestros {
+    width: 10%;
+  }
+  header #cristalab {
+    width: 10%;
+  }
+  #contenido {
+    width: 90%;
+  }
+}
+@media screen and (max-width:1200px) and (min-width:1100px) {
+  footer .izquierda .text {
+    width: auto;
+  }
+  footer .izquierda span:nth-child(1) {
+    font-size: 14px;
+  }
+  footer a {
+    font-size: 18px;
+  }
+  footer span {
+    font-size: 14px;
+  }
+  header #maestros {
+    width: 10%;
+  }
+  header #cristalab {
+    width: 10%;
+  }
+  #contenido {
+    width: 80%;
+  }
+}
+@media screen and (min-height:700px) {
+  #contenido {
+    width: 90%;
+  }
+}
+@media screen and (max-width:910px) {
+  footer .izquierda span:nth-child(1) {
+    margin-top: 12px;
+    font-size: 10px;
+  }
+  footer .derecha {
+    width: 75%;
+  }
+  header #maestros {
+    margin-top: 5px;
+    width: 10%;
+  }
+  header #cristalab {
+    margin-top: 5px;
+    width: 10%;
+  }
+  #contenido {
+    width: 100%;
+  }
+  #contenido #col1 {
+    width: 50%;
+  }
+  #contenido #col1 #mail {
+    width: 98%;
+  }
+  #contenido #col1 #social {
+    width: 98%;
+  }
+  #contenido #col2 {
+    width: 49%;
+  }
+}
+@media screen and (max-width:700px) {
+  footer {
+    display: none;
+  }
+  #contenido {
+    width: 100%;
+  }
+  #contenido #col1 {
+    width: 100%;
+  }
+  #contenido #col1 #social {
+    display: none;
+  }
+  #contenido #col1 #mail {
+    display: none;
+  }
+  #contenido #col1 #mail {
+    width: 98%;
+  }
+  #contenido #col1 #social {
+    width: 98%;
+  }
+  #contenido #col2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width:800px) and (max-height:600px) {
+  footer {
+    display: none;
+  }
+  #contenido {
+    width: 100%;
+  }
+  #contenido #col1 {
+    width: 100%;
+  }
+  #contenido #col1 #social {
+    display: block;
+  }
+  #contenido #col1 #mail {
+    display: none;
+  }
+  #contenido #col1 #mail {
+    width: 98%;
+  }
+  #contenido #col1 #social {
+    width: 98%;
+  }
+  #contenido #col2 {
+    width: 100%;
+  }
+}
+@media screen and (max-height:400px) {
+  #contenido {
+    width: 100%;
+  }
+  #contenido #col1 {
+    width: 60%;
+  }
+  #contenido #col1 #social {
+    margin: 0;
+    margin-top: 0;
+  }
+  #contenido #col1 #social div {
+    background: none;
+    padding: 0 10px;
+  }
+  #contenido #col1 #mail {
+    display: none;
+  }
+  #contenido #col1 #mail {
+    width: 98%;
+  }
+  #contenido #col1 #social {
+    width: 98%;
+  }
+  #contenido #col2 {
+    width: 39%;
+  }
+}
+@media screen and (max-height:600px) {
+  footer {
+    display: none;
+  }
+  #contenido {
+    width: 100%;
+  }
+  #contenido #col1 {
+    width: 55%;
+  }
+  #contenido #col1 #mail {
+    display: none;
+  }
+  #contenido #col1 #mail {
+    width: 98%;
+  }
+  #contenido #col1 #social {
+    width: 98%;
+  }
+  #contenido #col2 {
+    width: 44%;
+  }
+}
+@media screen and (min-height:500px) and (min-width:768px) and (max-height:600px) {
+  footer,
+  #contenido {
+    width: 100%;
+  }
+  footer #col1,
+  #contenido #col1 {
+    width: 55%;
+  }
+  footer #col1 #contvideo,
+  #contenido #col1 #contvideo {
+    width: 80%;
+    display: inline-block;
+  }
+  footer #col1 #mail,
+  #contenido #col1 #mail {
+    display: none;
+  }
+  footer #col1 #mail,
+  #contenido #col1 #mail {
+    width: 98%;
+  }
+  footer #col1 #social,
+  #contenido #col1 #social {
+    margin: 0;
+    background: rgba(0,0,0,0.30);
+    display: inline-block;
+    width: 19%;
+  }
+  footer #col1 #social div,
+  #contenido #col1 #social div {
+    background: none;
+    margin: 5px 0;
+  }
+  footer #col2,
+  #contenido #col2 {
+    width: 44%;
+  }
+}
+@media screen and (max-height:500px) and (max-width:1024) {
+  footer {
+    display: block;
+  }
+  #contenido {
+    width: 100%;
+  }
+  #contenido #col1 {
+    width: 55%;
+  }
+  #contenido #col1 #contvideo {
+    width: 80%;
+    display: inline-block;
+  }
+  #contenido #col1 #mail {
+    display: none;
+  }
+  #contenido #col1 #mail {
+    width: 98%;
+  }
+  #contenido #col1 #social {
+    margin: 0;
+    background: rgba(0,0,0,0.30);
+    display: inline-block;
+    width: 19%;
+  }
+  #contenido #col1 #social div {
+    background: none;
+    margin: 5px 0;
+  }
+  #contenido #col2 {
+    width: 44%;
+  }
+}
+@media screen and (max-width:480px) {
+  body {
+    overflow: scroll;
+  }
+  footer {
+    display: none;
+  }
+  #contenido {
+    width: 100%;
+  }
+  #contenido #col1 {
+    width: 100%;
+  }
+  #contenido #col1 #social {
+    display: none;
+  }
+  #contenido #col1 #mail {
+    display: none;
+  }
+  #contenido #col1 #mail {
+    width: 98%;
+  }
+  #contenido #col1 #social {
+    width: 98%;
+  }
+  #contenido #col2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width:768px) {
+}

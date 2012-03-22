@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+}
+::selection {
+  background: rgba(255,255,255,0.30);
+  text-shadow: 0 0 20px #017ecd, 1px 1px 1px #808080;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  margin: 0;
+}
+body {
+  background: #3c4043;
+  color: #fff;
+  font-family: 'Light';
+  font-size: 16px;
+}
+footer {
+  color: #3d4043;
+  padding-top: 80px;
+  text-transform: uppercase;
+}
+footer a {
+  color: #3d4043;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+footer div {
+  display: inline-block;
+  *display: inline;
+  min-height: 70px;
+  vertical-align: top;
+  zoom: 1;
+}
+footer .derecha {
+  font-family: Bold;
+  font-size: 25px;
+  height: 50px;
+  line-height: 70px;
+}
+footer .derecha a {
+  margin: 0 130px;
+}
+footer .izquierda {
+  background: #3d4043 url("../images/esquina-adorno-footer.jpg") no-repeat right top;
+  color: #fff;
+  text-align: right;
+  width: 350px;
+}
+footer .izquierda .text {
+  width: 220px;
+}
+footer .izquierda span {
+  display: block;
+  text-align: left;
+  margin-right: 20px;
+}
+footer .izquierda span:nth-child(1) {
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+footer .izquierda span:nth-child(2) {
+  font-family: Bold;
+  font-size: 12px;
+  font-weight: bold;
+}
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+header #maestros {
+  margin-left: 500px;
+  padding-top: 17px;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+header #cristalab {
+  margin-left: 900px;
+  padding-top: 17px;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+header div {
+  background: url("../images/adorno-logo.png") no-repeat 750px top;
+  border-top: 7px solid #fff;
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+  *width: auto;
+}
+h3 {
+  color: #3d4043;
+  font-family: Bold;
+  font-size: 45px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+img {
+  border: none;
+}
+strong {
+  font-family: 'Bold';
+}
+/*#cuerpo	section
+		width 100%*/
+#anteriores {
+  background: #fff;
+  min-width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+}
+#anteriores .todos {
+  background: #fff;
+  color: #3f4044;
+  position: absolute;
+  right: 0;
+  padding: 7px 20px;
+}
+#anteriores .todos a {
+  color: #3f4044;
+  font-size: 14px;
+  font-family: Bold;
+}
+#anteriores h3 {
+  margin-left: 80px;
+  text-align: left;
+}
+#anteriores .capitulo {
+  height: 218px;
+  width: 293px;
+  display: inline-block;
+  *display: inline;
+  vertical-align: top;
+  zoom: 1;
+}
+#anteriores .capitulo p {
+  background: rgba(0,0,0,0.50);
+  display: inline;
+}
+#anteriores .capitulo .hora {
+  opacity: 0;
+  -webkit-transition: 0.3s;
+}
+#anteriores .capitulo h2 {
+  background: rgba(0,0,0,0.50);
+  display: inline;
+}
+#anteriores .capitulo .block {
+  display: block;
+}
+#anteriores .capitulo .cap {
+  font-family: Bold;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+#anteriores .capitulo .imagen {
+  position: absolute;
+  z-index: 1;
+}
+#anteriores .capitulo .texto {
+  padding: 55px 25px 0 25px;
+  position: relative;
+  text-align: left;
+  z-index: 2;
+}
+#anteriores .capitulo:hover .hora {
+  opacity: 1;
+}
+#cuerpo,
+hgroup,
+footer {
+  background: #fff;
+  margin: 0 auto;
+  width: 1200px;
+}
+#cursos {
+  background: #fff;
+  padding-top: 80px;
+  text-transform: uppercase;
+}
+#cursos h3 {
+  margin-left: 80px;
+}
+#cursos a {
+  color: #fff;
+}
+#cursos a:hover {
+  text-decoration: none;
+}
+#cursos a:hover h5 {
+  text-decoration: underline;
+}
+#cursos .azulclaro {
+  background: #0073e8;
+}
+#cursos .azuloscuro {
+  background: #0186b8;
+}
+#cursos .verdeclaro {
+  background: #04a764;
+}
+#cursos .verdeoscuro {
+  background: #03978d;
+}
+#cursos .pais {
+  height: 66px;
+  margin-top: 3px;
+  position: relative;
+}
+#cursos .pais div {
+  *display: inline;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+}
+#cursos .pais .imagen img {
+  height: 66px;
+}
+#cursos .pais .fecha {
+  margin-left: 35px;
+}
+#cursos .pais .fecha h4 {
+  font-family: Bold;
+  font-size: 15px;
+  margin: 10px 0 -10px 3px;
+}
+#cursos .pais .fecha p {
+  font-size: 38px;
+}
+#cursos .pais .fecha strong {
+  font-weight: normal;
+  font-family: Light;
+}
+#cursos .pais .nombre {
+  font-size: 38px;
+  padding-top: 20px;
+  text-align: left;
+  width: 825px;
+  position: relative;
+}
+#cursos .pais .nombre a {
+  position: relative;
+}
+#cursos .pais .tec {
+  background: url("../images/fondo-logo-tec.png");
+  height: 66px;
+  position: absolute;
+  right: 0;
+  width: 115px;
+}
+#cursos .pais .tec img {
+  margin-left: 60px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+#cursos .pais .tec:after {
+  display: block;
+  clear: both;
+}
+#proximo {
+  background: #fff;
+  color: #27292a;
+  margin-bottom: 60px;
+  text-align: center;
+}
+#proximo h3 {
+  font-family: Light;
+  font-size: 35px;
+  font-weight: normal;
+  letter-spacing: 15px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+#proximo span {
+  display: block;
+  font-size: 12px;
+  margin-top: 20px;
+  position: absolute;
+  text-transform: uppercase;
+}
+#proximo .cuenta {
+  display: inline-block;
+  *display: inline;
+  vertical-align: top;
+  zoom: 1;
+}
+#proximo .cuenta div {
+  background: #27292a;
+  font-family: Bold;
+  font-size: 50px;
+  height: 55px;
+  min-width: 10px;
+  padding: 0 10px;
+  position: relative;
+}
+#proximo .cuenta div span {
+  color: #fff;
+  font-size: 50px;
+  position: relative;
+}
+#proximo .cuenta div .linea {
+  background: #fff;
+  height: 2px;
+  margin-left: -10px;
+  margin-top: 50%;
+  position: absolute;
+  width: 100%;
+}
+#proximo .cuenta:nth-child(even) {
+  margin: 0 80px;
+}
+#social {
+  margin: -50px auto 0 auto;
+  width: 400px;
+  position: relative;
+  z-index: 2;
+}
+#social div {
+  display: inline-block;
+  *display: inline;
+  margin-left: 40px;
+  vertical-align: top;
+  zoom: 1;
+}
+#social div:nth-child(1) {
+  margin-left: 0;
+}
+#social .btn_youtube:after,
+#social .btn_twitter:after,
+#social .btn_facebook:after,
+#social .btn_googlemas:after {
+  background: #fff;
+  border-radius: 10px;
+  content: "";
+  height: 30px;
+  margin-left: -10px;
+  margin-top: -28px;
+  display: block;
+  width: 70px;
+}
+#social .btn_youtube:after {
+  width: 85px;
+}
+#social .btn_twitter:after {
+  width: 90px;
+}
+#social .btn_facebook,
+#social .btn_googlemas {
+  width: 55px;
+}
+#social .btn_facebook:after {
+  margin-top: -25px;
+  width: 65px;
+}
+#ultimo {
+  height: 440px;
+  width: 100%;
+}
+#ultimo .absolute {
+  position: absolute;
+  z-index: 1;
+}
+#ultimo .datos {
+  position: relative;
+  z-index: 4;
+}
+#ultimo .datos .titulo {
+  -webkit-transition: 0.3s;
+  margin-right: 30px;
+}
+#ultimo .datos .titulo:hover {
+  text-shadow: 0 0 20px rgba(255,255,255,0.50);
+  text-decoration: none;
+}
+#ultimo .tela {
+  background: rgba(0,0,0,0.50);
+  position: absolute;
+  z-index: 2;
+  width: 1200px;
+  height: 442px;
+}
+#ultimo .boton,
+#ultimo .fecha,
+#ultimo .horario,
+#ultimo .titulo {
+  clear: both;
+  display: block;
+  float: right;
+  margin-right: 65px;
+  text-align: right;
+}
+#ultimo .boton {
+  font-weight: bold;
+  font-family: Bold;
+  margin-top: 10px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+#ultimo .boton:hover {
+  text-shadow: 0 0 10px #fff;
+}
+#ultimo .fecha {
+  font-size: 15px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+#ultimo .horario {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin: 115px 70px 0 0;
+  text-transform: uppercase;
+  width: 238px;
+}
+#ultimo .horario .big {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+#ultimo .titulo {
+  font-size: 80px;
+  font-weight: normal;
+  line-height: 70px;
+  margin-top: 20px;
+  width: 800px;
+}
+.cinta {
+  background: url("../images/cinta.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 32px;
+}
+@media screen and (max-width:1280px) {
+  footer .derecha a {
+    margin: 0 80px;
+  }
+  header div {
+    width: 1000px;
+  }
+  #anteriores .capitulo {
+    height: 178px;
+    width: 24%;
+  }
+  #anteriores .capitulo .imagen {
+    width: 24%;
+  }
+  #anteriores .capitulo .imagen img {
+    width: 100%;
+  }
+  #cuerpo,
+  hgroup,
+  footer {
+    width: 1000px;
+  }
+  #cursos {
+    background: #fff;
+    padding-top: 80px;
+    text-transform: uppercase;
+  }
+  #cursos h3 {
+    margin-left: 80px;
+  }
+  #cursos .pais {
+    position: relative;
+  }
+  #cursos .pais div {
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    zoom: 1;
+  }
+  #cursos .pais .fecha {
+    margin-left: 35px;
+  }
+  #cursos .pais .fecha h4 {
+    font-family: Bold;
+    font-size: 15px;
+    margin: 10px 0 -10px 3px;
+  }
+  #cursos .pais .fecha p {
+    font-size: 38px;
+  }
+  #cursos .pais .fecha strong {
+    font-weight: normal;
+    font-family: Light;
+  }
+  #cursos .pais .nombre {
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: left;
+    width: 625px;
+  }
+  #cursos .pais .nombre a {
+    color: #3f4044;
+  }
+  #cursos .pais .tec {
+    position: absolute;
+    right: 0;
+  }
+  #cursos .pais .tec:after {
+    display: block;
+    clear: both;
+  }
+  #ultimo {
+    height: 440px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  #ultimo .absolute {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+  }
+  #ultimo .datos {
+    position: relative;
+    z-index: 4;
+  }
+  #ultimo .datos .titulo {
+    -webkit-transition: 0.3s;
+    margin-right: 30px;
+  }
+  #ultimo .datos .titulo:hover {
+    text-shadow: 0 0 20px rgba(255,255,255,0.50);
+    text-decoration: none;
+  }
+  #ultimo .tela {
+    background: rgba(0,0,0,0.50);
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 442px;
+  }
+}
